@@ -1,1 +1,70 @@
-Climate change is the defining challenge now facing our planet andlimiting global warming to 1.5 degrees requires rapid, far-reaching,and unprecedented changes in how governments, industries, andsocieties function by 2030. This climate crisis demands effort fromacross all disciplines, including CS education.For this report, we reviewed the existing literature, interviewedleading experts integrating climate change into CS education andheld conversations at ITiCSE 2019 to identify how universities, de-partments, and CS educators should address climate change withinCS education.We find that the state of addressing climate change within CSeducation is immature and report on what universities have doneand what obstacles to climate change in CS education exist at thelevel of institutional, program and departmental support as well asfaculty attitude, and reactions of students.Following the IPCC, we suggest that climate change be addressedacross the CS curriculum as an urgent priority and that CS educa-tors are provided with support and resources at departmental anduniversity level. Moreover, we attempt to provide information toassist CS educators at all levels of the University structure.We created a series of recommendations on how to give ourstudents the tools and knowledge needed to adapt to a world shapedby climate change, and have identified responses, strategies, seedideas, and resources to assist educators in including climate changein CS education
+# ZURB Template
+
+[![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
+
+**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+
+This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
+
+- Handlebars HTML templates with Panini
+- Sass compilation and prefixing
+- JavaScript module bundling with webpack
+- Built-in BrowserSync server
+- For production builds:
+  - CSS compression
+  - JavaScript module bundling with webpack
+  - Image compression
+
+## Installation
+
+To use this template, your computer needs:
+
+- [NodeJS](https://nodejs.org/en/) (Version 6 or greater recommended, tested with 6.11.4 and 8.12.0)
+- [Git](https://git-scm.com/)
+
+This template can be installed with the Foundation CLI, or downloaded and set up manually.
+
+### Using the CLI
+
+Install the Foundation CLI with this command:
+
+```bash
+npm install foundation-cli --global
+```
+
+Use this command to set up a blank Foundation for Sites project with this template:
+
+```bash
+foundation new --framework sites --template zurb
+```
+
+The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+
+Now `cd` to your project name and to start your project run 
+
+```bash
+foundation watch
+```
+
+### Manual Setup
+
+To manually set up the template, first download it with Git:
+
+```bash
+git clone https://github.com/zurb/foundation-zurb-template projectname
+```
+
+Then open the folder in your command line, and install the needed dependencies:
+
+```bash
+cd projectname
+yarn
+```
+
+Finally, run `yarn start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
+
+```
+http://localhost:8000
+```
+
+To create compressed, production-ready assets, run `yarn run build`.
