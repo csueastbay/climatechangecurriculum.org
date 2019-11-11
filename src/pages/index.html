@@ -4,6 +4,10 @@ description: Climate change is the defining environmental challenge now facing o
 ---
 
 <div class="cell small-12">
-  {{> hero-full-screen}}
+  https://climatechangecurriculum.org/
 </div>
-<img src="assets/img/traffic_01.jpg" alt="">
+<ul>
+  {{#each literature.items}}
+    <li class="item-name">{{this}}</li>
+  {{/each}}
+</ul>

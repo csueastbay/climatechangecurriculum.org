@@ -1,5 +1,15 @@
 $topbar-responsive-bg: #2c3840;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
+$topbar-responsive-bg-is-active: #FFF5EE;
+
+.topbar-responsive .menu a.is-active{
+  font-weight: 700;
+  color: $topbar-responsive-bg-is-active;
+  transition: color 0.15s ease-in;
+  border-bottom:1px solid white;
+  padding-bottom:5px;
+  transform: translateY(3px);
+}
 
 .topbar-responsive {
   background: $topbar-responsive-bg;
